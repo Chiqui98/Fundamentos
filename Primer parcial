@@ -1,0 +1,23 @@
+// Examen Primer parcial.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+void main(){ 
+
+	float x,y,z;
+cout<<"Cantidad de camisas:" <<endl;
+cin>>x;
+cout<<"Precio de las camisas : "<<endl;
+cin>>y;
+if(x>=3)
+z=y*0.8;
+else 
+z=y*0.9;
+cout<<"El precio de descuento es : " <<z<<endl;
+getch();
+}
+
