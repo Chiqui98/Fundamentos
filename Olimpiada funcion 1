@@ -1,0 +1,31 @@
+// olimpiadas 1.cpp : Defines the entry point for the console application.
+//
+
+int serie (int a)
+{ int b=2,c=0,d=0,n=0;
+do
+{
+	c=c+b;
+	b=b+2;
+	d=a+cap(c);
+	n=n+1;
+}
+
+while (n<=9);
+return d;
+}
+
+int cap(int y)
+{ int s=0,r;
+ do
+ {
+	 r=y%10;
+	 y=y/10;
+	 s=(s*10);
+ }
+ while (r>0);
+ return s;
+}
+
+
+
